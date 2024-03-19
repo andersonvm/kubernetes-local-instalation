@@ -14,8 +14,6 @@ Uma conexão confiável com a Internet
 
 Neste artigo, mostrarei como instalar e configurar um cluster Kubernetes no Rocky Linux 9. O número de workers dependerá da quantidade de memória ram que você tem disponível em sua máquina. Considere alocar pelo menos dois workers.
 
-Para adiantar os trabalhos, façamos o seguinte:
-
 Faremos uma instalação template, que servirá como template para todas as outras máquinas. A configuração no Virtualbox deve ficar assim:
 
 ![Configuração do Virtualbox](https://github.com/andersonvm/kubernetes-local-instalation/blob/main/1.png)
