@@ -18,11 +18,11 @@ Para adiantar os trabalhos, façamos o seguinte:
 
 Faremos uma instalação template, que servirá como template para todas as outras máquinas. A configuração no Virtualbox deve ficar assim:
 
-![Configuração do Virtualbox](https://drive.google.com/file/d/1G24szrOPbYjJfbv_TnfYUfBmMI1ZW4ip/view?usp=drive_link)
+![Configuração do Virtualbox](https://drive.google.com/file/d/1G24szrOPbYjJfbv_TnfYUfBmMI1ZW4ip/view?usp=sharing)
 
 Observe que, a PAE/NX deve estar habilitada e é recomendável alocar dois núcleos de CPU.
 
-![Configuração do Virtualbox](https://drive.google.com/file/d/19FSNGr7rdG5qSyM8OedgG6nejcAQ2cjG/view?usp=drive_link)
+![Configuração do Virtualbox](https://drive.google.com/file/d/19FSNGr7rdG5qSyM8OedgG6nejcAQ2cjG/view?usp=sharing)
 
 Visando facilitar os trabalhos, para fins de acesso SSH, coloque a configuração da placa de rede em modo bridge. Assim, a VM irá oter um IP da rede onde sua máquina está ligada.
 
@@ -216,10 +216,10 @@ Para isso, desligue a VM e faça os seguintes passos:
 
 Selecione a VM criada e clique com o botão direito do mouse:
 
-![Template](https://drive.google.com/file/d/1htx-qu93xEDuA-kOcmbmLQpG27RkMGNI/view?usp=drive_link)
+![Template](https://drive.google.com/file/d/1htx-qu93xEDuA-kOcmbmLQpG27RkMGNI/view?usp=sharing)
 
 Clique na opção Clonar e configure desta maneira para o master:
-![Clone da Máquina Virtual](https://drive.google.com/file/d/1krL0RBIQnpizqpjiQveFRzqLY9X6mU2m/view?usp=drive_link)
+![Clone da Máquina Virtual](https://drive.google.com/file/d/1krL0RBIQnpizqpjiQveFRzqLY9X6mU2m/view?usp=sharing)
 
 Não se esqueça de alterar a opção Política de Endereço MAC para gerar um novo endereço para a VM clonada.
 
@@ -229,7 +229,7 @@ Agora, selecione a opção Clone Linkado.
 
 Aqui estão as vantagens de criar um clone linkado:
 
-![Clone da Máquina Virtual](https://drive.google.com/file/d/1c7sFsdFkNh9qXRvQu3uG760bxxvj1JsI/view?usp=drive_link)
+![Clone da Máquina Virtual](https://drive.google.com/file/d/1c7sFsdFkNh9qXRvQu3uG760bxxvj1JsI/view?usp=sharing)
 
 Economia de espaço em disco: Um dos principais benefícios de um clone linkado é a economia de espaço em disco. Como os clones linkados compartilham o mesmo arquivo de disco rígido virtual com a máquina virtual original, eles ocupam muito menos espaço em disco do que uma cópia completa. Isso pode ser especialmente útil quando você precisa criar múltiplas instâncias de uma máquina virtual, mas deseja minimizar o uso de espaço em disco.
 
